@@ -36,5 +36,5 @@ def merge_data(keys, data)
 end
 
 def find_cool(array)
-array.select { |entry| entry.has_value?("cool")}
+array.select { |x| x.has_value?("cool")}
 end
