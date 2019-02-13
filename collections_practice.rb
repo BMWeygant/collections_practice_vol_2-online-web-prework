@@ -40,5 +40,5 @@ array.select { |x| x.has_value?("cool")}
 end
 
 def organize_schools(array)
-  
+
 end
