@@ -1,6 +1,25 @@
 def begins_with_r(array)
-if array.any? { |x| x !== r }
-  return false
+if array.all? { |x| x.start_with?('r') }
+   true
 else
-  true
+  false
+end
+end
+
+def contain_a(array)
+  array.select { |x| x.include?("a")}
+end
+
+def first_wa(array)
+  array.find do
+    |x| x.to_s.start_with?("wa")
+  end
+end
+
+def remove_non_strings(array)
+  array.delete_if { |x| x.class != String }
+end
+
+def count_elements(array)
+  
 end
