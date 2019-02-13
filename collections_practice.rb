@@ -24,5 +24,9 @@ def count_elements(array)
   array.uniq.collect do |item|
     item[:count] = array.count(item)
     item
-  end  
+  end
+end
+
+def merge_data
+
 end
